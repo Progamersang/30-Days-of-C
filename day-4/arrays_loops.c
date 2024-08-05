@@ -2,8 +2,6 @@
 
 int array1[5];
 
-
-
 int main() {
 	int i;
 	for (i = 0; i < 5; i++) {
@@ -32,16 +30,15 @@ int main() {
 	printf("--- while loop (i = 5) ---\n");
 	i = 5;
 	while (i < 5) {
-		printf("%d\n", intarray[i]);
+		printf("%d\n", array1[i]);
 		i++;
 	}
 
 	printf("--- do..while loop (i = 5) ---\n");
 	i = 5;
 	do {
-		printf("%d\n", intarray[i]);
+		printf("%d\n", array1[i]);
 		i++;
 	} while (i < 5);
 	return 0;
 }
-
