@@ -2,8 +2,6 @@
 
 int array1[5];
 
-
-
 int main() {
 	int i;
 	for (i = 0; i < 5; i++) {
@@ -29,6 +27,7 @@ int main() {
 		i++;
 	} while (i < 5);
 
+	// Fix the errors here: Use the correct array name and valid index
 	printf("--- while loop (i = 5) ---\n");
 	i = 5;
 	while (i < 5) {
